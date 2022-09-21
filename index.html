@@ -35,6 +35,26 @@
                 <option value="outstanding">Outstanding</option>
             </select>
         </div>
+        <div class="form-section">
+            <label>Let's use some radio to rate this survey between 0 and 10.</label>
+            <label><input type="radio" name="radio-section" value="ten" checked/>10</label>
+            <label><input type="radio" name="radio-section" value="nine-plus"/>9+1</label>
+            <label><input type="radio" name="radio-section" value="ten-again"/>10</label>
+            <label><input type="radio" name="radio-section" value="letter-ten"/>Ten</label>
+          </div>
+          <div class="form-section">
+            <label>Another select, just in case you changed your mind</label>
+            <select>
+              <option disabled selected value>(please, select another option)</option>
+              <option value="cant-change">I can't change my mind, this is awesome</option>
+            </select>
+          </div>
+          <div class="form-section">
+            <label>Of course, the second best survey in the world needs a checkbox section. Tell us whay would you like to be improved.</label>
+            <label><input type="checkbox" name="checkbox-section" value="nothing" checked/>Nothing,<span class="normal"> it's perfect as it is (in Normal text)</span></label>
+            <label><input type="checkbox" name="checkbox-section" value="nothing-bold" checked/>Nothing,<span class="bold"> it's perfect as it is (in bold)</span></label>
+            <label><input type="checkbox" name="checkbox-section" value="nothing-underline" checked/>Nothing,<span class="underline"> it's perfect as it is (w/underline)</span></label>
+          </div>
     </form>
 
 </body>
