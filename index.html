@@ -21,7 +21,7 @@
             <label id="email-label">Email</label>
             <input id="email" class="first-section" type="email" placeholder="example@email.ar" required />
             <label>Enter your name again</label>
-            <input type="text" cla="first-section" placeholder="Just to be sure" />
+            <input type="text" class="first-section" placeholder="Just to be sure" />
             <label id="number-label">Now your age</label>
             <input id="number" class="first-section" type="number" min="0" max="30" placeholder="No lies please" />
         </div>
@@ -37,26 +37,39 @@
         </div>
         <div class="form-section">
             <label>Let's use some radio to rate this survey between 0 and 10.</label>
-            <label><input type="radio" name="radio-section" value="ten" checked/>10</label>
-            <label><input type="radio" name="radio-section" value="nine-plus"/>9+1</label>
-            <label><input type="radio" name="radio-section" value="ten-again"/>10</label>
-            <label><input type="radio" name="radio-section" value="letter-ten"/>Ten</label>
-          </div>
-          <div class="form-section">
+            <label><input type="radio" name="radio-section" value="ten" checked />10</label>
+            <label><input type="radio" name="radio-section" value="nine-plus" />9+1</label>
+            <label><input type="radio" name="radio-section" value="ten-again" />10</label>
+            <label><input type="radio" name="radio-section" value="letter-ten" />Ten</label>
+        </div>
+        <div class="form-section">
             <label>Another select, just in case you changed your mind</label>
             <select>
-              <option disabled selected value>(please, select another option)</option>
-              <option value="cant-change">I can't change my mind, this is awesome</option>
+                <option disabled selected value>(please, select another option)</option>
+                <option value="cant-change">I can't change my mind, this is awesome</option>
             </select>
-          </div>
-          <div class="form-section">
-            <label>Of course, the second best survey in the world needs a checkbox section. Tell us whay would you like to be improved.</label>
-            <label><input type="checkbox" name="checkbox-section" value="nothing" checked/>Nothing,<span class="normal"> it's perfect as it is (in Normal text)</span></label>
-            <label><input type="checkbox" name="checkbox-section" value="nothing-bold" checked/>Nothing,<span class="bold"> it's perfect as it is (in bold)</span></label>
-            <label><input type="checkbox" name="checkbox-section" value="nothing-underline" checked/>Nothing,<span class="underline"> it's perfect as it is (w/underline)</span></label>
-          </div>
+        </div>
+        <div class="form-section">
+            <label>Of course, the second best survey in the world needs a checkbox section. Tell us whay would you like
+                to be improved.</label>
+            <label><input type="checkbox" name="checkbox-section" value="nothing" checked />Nothing,<span
+                    class="normal"> it's perfect as it is (in Normal text)</span></label>
+            <label><input type="checkbox" name="checkbox-section" value="nothing-bold" checked />Nothing,<span
+                    class="bold"> it's perfect as it is (in bold)</span></label>
+            <label><input type="checkbox" name="checkbox-section" value="nothing-underline" checked />Nothing,<span
+                    class="underline"> it's perfect as it is (w/underline)</span></label>
+        </div>
+        <div class="form-section">
+            <label>And last and least, your comments.</label>
+            <textarea
+                placeholder="We know that you don't need this, but freeCodeCamp &copy; ask us to put it in here"></textarea>
+        </div>
+        <button type="submit" id="submit" class="submit-button">Submit</button>
     </form>
-
 </body>
+<footer>
+    <a href="https://www.freepik.com/free-vector/blue-white-polygonal-mosaic-background_6613649.htm"
+        target="_blank">Background Image by Harryarts</a> on Freepik
+</footer>
 
 </html>
